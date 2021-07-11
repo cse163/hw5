@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "cse163-hw5"
+version = "0.1.0"
+description = "Test starter code for CSE 163 - HW5"
+authors = ["Hunter Schafer <hschafer@uw.edu>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+flake8 = "3.8.4"
+geopandas = "0.9.0"
+matplotlib = "3.4.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
