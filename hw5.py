@@ -1,6 +1,6 @@
 def main():
     state_data = load_in_data(
-        'food_access/tl_2010_53_tract00/tl_2010_53_tract00.shp',
+        'food_access/washington.json',
         'food_access/food_access.csv'
     )
     print(percentage_food_data(state_data))
